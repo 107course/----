@@ -5,7 +5,7 @@
 const portfolioData = {
   // 個人資訊
   profile: {
-    name: "李明",
+    name: "李小明",
     title: "全端工程師",
     subtitle: "UI/UX 設計師",
     bio: "我是一位充滿熱情的全端開發工程師，擁有 5+ 年的業界經驗。專注於使用現代 Web 技術創造直觀、高效且無障礙的使用者介面。",
