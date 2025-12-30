@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="查看李明完成的專案與案例研究" />
+    <title>作品集 | 個人簡介</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <!-- Header -->
+      <header class="header">
+        <div class="header-container">
+          <div class="logo">
+            <h1>Portfolio</h1>
+          </div>
+          <nav aria-label="主要導覽">
+            <a href="../index.html" class="nav-link">首頁</a>
+            <a href="about.html" class="nav-link">關於我</a>
+            <a href="projects.html" class="nav-link">作品集</a>
+            <a href="contact.html" class="nav-link">聯絡我</a>
+          </nav>
+          <button id="theme-toggle" class="theme-toggle" aria-label="切換深色/淺色模式">
+            <svg class="icon-sun" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="5" />
+              <line x1="12" y1="1" x2="12" y2="3" />
+              <line x1="12" y1="21" x2="12" y2="23" />
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+              <line x1="1" y1="12" x2="3" y2="12" />
+              <line x1="21" y1="12" x2="23" y2="12" />
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+            </svg>
+            <svg class="icon-moon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+            </svg>
+          </button>
+        </div>
+      </header>
+
+      <main>
+        <!-- Projects Hero -->
+        <section class="section" style="background: linear-gradient(180deg, var(--color-bg-secondary), var(--color-bg));">
+          <div class="section-container">
+            <h1 style="font-size: 2.5rem; margin-bottom: var(--spacing-md); background: linear-gradient(135deg, var(--color-accent), var(--color-accent-light)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+              作品集
+            </h1>
+            <p style="font-size: 1.125rem; color: var(--color-text-secondary); max-width: 800px; line-height: 1.8;">
+              以下是我近年完成的代表性專案與案例研究。每個項目都展示了我在技術實現、設計思維和團隊協作方面的能力。
+            </p>
+          </div>
+        </section>
+
+        <!-- Projects Grid -->
+        <section class="section projects-section">
+          <div class="section-container">
+            <div class="projects-grid">
+              <article class="project-card">
+                <div class="project-image">
+                  <div class="project-placeholder">專案 1</div>
+                </div>
+                <div class="project-content">
+                  <h3>互動式儀表板</h3>
+                  <p>使用 React 與 D3.js 建置的即時數據可視化儀表板，支援深色模式與響應式設計。</p>
+                  <p style="color: var(--color-text-secondary); font-size: 0.875rem; margin: var(--spacing-md) 0;">
+                    這個專案展示了如何使用現代 JavaScript 框架與資料視覺化庫來創建高性能的儀表板應用。包含即時資料更新、多種圖表類型與自訂篩選功能。
+                  </p>
+                  <div class="project-tags">
+                    <span class="tag">React</span>
+                    <span class="tag">D3.js</span>
+                    <span class="tag">Redux</span>
+                    <span class="tag">Real-time</span>
+                  </div>
+                  <div style="margin-top: var(--spacing-lg); display: flex; gap: var(--spacing-md);">
+                    <a href="#" style="color: var(--color-accent); text-decoration: none; font-weight: 600;">查看專案 →</a>
+                    <a href="#" style="color: var(--color-text-secondary); text-decoration: none; font-weight: 600;">GitHub</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-image">
+                  <div class="project-placeholder">專案 2</div>
+                </div>
+                <div class="project-content">
+                  <h3>電商前端應用</h3>
+                  <p>完整的電商購物平台前端，包含商品列表、購物車、結帳流程及訂單管理。</p>
+                  <p style="color: var(--color-text-secondary); font-size: 0.875rem; margin: var(--spacing-md) 0;">
+                    打造的全功能電商應用，整合支付系統、庫存管理與訂單追蹤。具有高度優化的性能與使用者友善的介面。
+                  </p>
+                  <div class="project-tags">
+                    <span class="tag">Vue.js</span>
+                    <span class="tag">Stripe API</span>
+                    <span class="tag">Vuex</span>
+                    <span class="tag">Responsive</span>
+                  </div>
+                  <div style="margin-top: var(--spacing-lg); display: flex; gap: var(--spacing-md);">
+                    <a href="#" style="color: var(--color-accent); text-decoration: none; font-weight: 600;">查看專案 →</a>
+                    <a href="#" style="color: var(--color-text-secondary); text-decoration: none; font-weight: 600;">GitHub</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-image">
+                  <div class="project-placeholder">專案 3</div>
+                </div>
+                <div class="project-content">
+                  <h3>設計系統與元件庫</h3>
+                  <p>建立可重用的 UI 元件庫，統一風格、色彩、排版等設計規範，提升開發效率。</p>
+                  <p style="color: var(--color-text-secondary); font-size: 0.875rem; margin: var(--spacing-md) 0;">
+                    開發的企業級設計系統，包含 60+ 可重用元件、完整的文件與 Storybook 集成。大幅提升團隊的開發效率與設計一致性。
+                  </p>
+                  <div class="project-tags">
+                    <span class="tag">Storybook</span>
+                    <span class="tag">CSS Modules</span>
+                    <span class="tag">TypeScript</span>
+                    <span class="tag">Jest</span>
+                  </div>
+                  <div style="margin-top: var(--spacing-lg); display: flex; gap: var(--spacing-md);">
+                    <a href="#" style="color: var(--color-accent); text-decoration: none; font-weight: 600;">查看專案 →</a>
+                    <a href="#" style="color: var(--color-text-secondary); text-decoration: none; font-weight: 600;">GitHub</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-image">
+                  <div class="project-placeholder">專案 4</div>
+                </div>
+                <div class="project-content">
+                  <h3>社交媒體網站</h3>
+                  <p>使用 TypeScript 與 Redux 開發的社交平台，支援即時聊天、貼文與用戶互動。</p>
+                  <p style="color: var(--color-text-secondary); font-size: 0.875rem; margin: var(--spacing-md) 0;">
+                    功能完整的社交媒體平台，包含用戶認證、實時通知、動態摘要與消息系統。採用微服務架構與 WebSocket 實現即時通信。
+                  </p>
+                  <div class="project-tags">
+                    <span class="tag">React</span>
+                    <span class="tag">Node.js</span>
+                    <span class="tag">Socket.io</span>
+                    <span class="tag">MongoDB</span>
+                  </div>
+                  <div style="margin-top: var(--spacing-lg); display: flex; gap: var(--spacing-md);">
+                    <a href="#" style="color: var(--color-accent); text-decoration: none; font-weight: 600;">查看專案 →</a>
+                    <a href="#" style="color: var(--color-text-secondary); text-decoration: none; font-weight: 600;">GitHub</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-image">
+                  <div class="project-placeholder">專案 5</div>
+                </div>
+                <div class="project-content">
+                  <h3>天氣預報應用</h3>
+                  <p>整合天氣 API 的即時天氣預報應用，支援地點搜尋與多日預報。</p>
+                  <p style="color: var(--color-text-secondary); font-size: 0.875rem; margin: var(--spacing-md) 0;">
+                    建立的跨平台天氣應用，利用第三方 API 提供精確的天氣資訊。包含地圖整合、天氣警告通知與本地快取優化。
+                  </p>
+                  <div class="project-tags">
+                    <span class="tag">React</span>
+                    <span class="tag">Weather API</span>
+                    <span class="tag">Mapbox</span>
+                    <span class="tag">PWA</span>
+                  </div>
+                  <div style="margin-top: var(--spacing-lg); display: flex; gap: var(--spacing-md);">
+                    <a href="#" style="color: var(--color-accent); text-decoration: none; font-weight: 600;">查看專案 →</a>
+                    <a href="#" style="color: var(--color-text-secondary); text-decoration: none; font-weight: 600;">GitHub</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-image">
+                  <div class="project-placeholder">專案 6</div>
+                </div>
+                <div class="project-content">
+                  <h3>任務管理系統</h3>
+                  <p>功能豐富的團隊任務管理工具，支援團隊協作、截止日期與優先級排序。</p>
+                  <p style="color: var(--color-text-secondary); font-size: 0.875rem; margin: var(--spacing-md) 0;">
+                    企業級任務管理系統，支援團隊成員協作、實時通知與進度追蹤。整合日曆視圖、甘特圖與詳細的分析報告。
+                  </p>
+                  <div class="project-tags">
+                    <span class="tag">Vue.js</span>
+                    <span class="tag">Firebase</span>
+                    <span class="tag">Vuetify</span>
+                    <span class="tag">Gantt Chart</span>
+                  </div>
+                  <div style="margin-top: var(--spacing-lg); display: flex; gap: var(--spacing-md);">
+                    <a href="#" style="color: var(--color-accent); text-decoration: none; font-weight: 600;">查看專案 →</a>
+                    <a href="#" style="color: var(--color-text-secondary); text-decoration: none; font-weight: 600;">GitHub</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-container">
+          <p>&copy; 2025 李明的作品集。版權所有。</p>
+          <div class="footer-links">
+            <a href="../index.html">首頁</a>
+            <a href="about.html">關於我</a>
+            <a href="projects.html">作品集</a>
+            <a href="contact.html">聯絡我</a>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Back to Top Button -->
+      <button id="back-to-top" aria-label="返回頂部">↑</button>
+    </div>
+
+    <script src="../data.js"></script>
+    <script src="../script.js"></script>
+  </body>
+</html>

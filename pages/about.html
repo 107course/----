@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="瞭解更多關於李明的背景、技能與經驗" />
+    <title>關於我 | 個人簡介</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <!-- Header -->
+      <header class="header">
+        <div class="header-container">
+          <div class="logo">
+            <h1>Portfolio</h1>
+          </div>
+          <nav aria-label="主要導覽">
+            <a href="../index.html" class="nav-link">首頁</a>
+            <a href="about.html" class="nav-link">關於我</a>
+            <a href="projects.html" class="nav-link">作品集</a>
+            <a href="contact.html" class="nav-link">聯絡我</a>
+          </nav>
+          <button id="theme-toggle" class="theme-toggle" aria-label="切換深色/淺色模式">
+            <svg class="icon-sun" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="5" />
+              <line x1="12" y1="1" x2="12" y2="3" />
+              <line x1="12" y1="21" x2="12" y2="23" />
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+              <line x1="1" y1="12" x2="3" y2="12" />
+              <line x1="21" y1="12" x2="23" y2="12" />
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+            </svg>
+            <svg class="icon-moon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+            </svg>
+          </button>
+        </div>
+      </header>
+
+      <main>
+        <!-- About Hero -->
+        <section class="section" style="background: linear-gradient(180deg, var(--color-bg-secondary), var(--color-bg));">
+          <div class="section-container">
+            <h1 style="font-size: 2.5rem; margin-bottom: var(--spacing-md); background: linear-gradient(135deg, var(--color-accent), var(--color-accent-light)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+              關於我
+            </h1>
+            <p style="font-size: 1.125rem; color: var(--color-text-secondary); max-width: 800px; line-height: 1.8;">
+              我是李明，一位全端工程師與 UI/UX 設計師，擁有 5+ 年的業界經驗。熱愛解決複雜的技術問題，並將使用者體驗放在首位。在前端與後端技術間遊刃有餘，能夠獨立完成從設計到部署的全套流程。
+            </p>
+          </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section about-section">
+          <div class="section-container">
+            <h2>技能</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--spacing-lg);">
+              <div style="background: var(--color-bg); padding: var(--spacing-lg); border-radius: var(--radius-lg); border: 1px solid var(--color-border);">
+                <h3 style="margin-top: 0; color: var(--color-accent);">前端開發</h3>
+                <ul style="list-style: none; color: var(--color-text-secondary);">
+                  <li>• HTML5 & CSS3</li>
+                  <li>• JavaScript / TypeScript</li>
+                  <li>• React & Vue.js</li>
+                  <li>• Responsive Design</li>
+                  <li>• 無障礙設計 (A11y)</li>
+                </ul>
+              </div>
+
+              <div style="background: var(--color-bg); padding: var(--spacing-lg); border-radius: var(--radius-lg); border: 1px solid var(--color-border);">
+                <h3 style="margin-top: 0; color: var(--color-accent);">後端開發</h3>
+                <ul style="list-style: none; color: var(--color-text-secondary);">
+                  <li>• Node.js & Express</li>
+                  <li>• Python & Django</li>
+                  <li>• MongoDB & PostgreSQL</li>
+                  <li>• GraphQL & REST API</li>
+                  <li>• 微服務架構</li>
+                </ul>
+              </div>
+
+              <div style="background: var(--color-bg); padding: var(--spacing-lg); border-radius: var(--radius-lg); border: 1px solid var(--color-border);">
+                <h3 style="margin-top: 0; color: var(--color-accent);">工具 & 平台</h3>
+                <ul style="list-style: none; color: var(--color-text-secondary);">
+                  <li>• Git & GitHub</li>
+                  <li>• Docker & Kubernetes</li>
+                  <li>• AWS & Cloud Services</li>
+                  <li>• Figma & Design Tools</li>
+                  <li>• CI/CD & DevOps</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="section projects-section">
+          <div class="section-container">
+            <h2>工作經驗</h2>
+            <div class="timeline">
+              <div class="timeline-item">
+                <h3>資深前端工程師</h3>
+                <div class="period">科技創新公司 • 2022 - 現在</div>
+                <div class="description">
+                  領導前端團隊開發企業級應用，負責技術架構設計與團隊指導。
+                </div>
+                <ul class="achievement-list">
+                  <li>建立設計系統，提升開發效率 40%</li>
+                  <li>優化核心應用性能，減少首屏加載時間 60%</li>
+                  <li>帶領 3 位後輩工程師的技術成長</li>
+                </ul>
+              </div>
+
+              <div class="timeline-item">
+                <h3>前端工程師</h3>
+                <div class="period">網頁設計工作室 • 2020 - 2022</div>
+                <div class="description">
+                  開發客戶端與內部工具，與設計團隊密切協作。
+                </div>
+                <ul class="achievement-list">
+                  <li>獨立完成 15+ 個客戶專案</li>
+                  <li>實現無障礙設計標準 WCAG 2.1 AA 級</li>
+                  <li>開發內部 UI 元件庫，減少重複工作</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section about-section">
+          <div class="section-container">
+            <h2>教育背景</h2>
+            <div class="timeline">
+              <div class="timeline-item">
+                <h3>資訊工程學系</h3>
+                <div class="period">國立台灣大學 • 2016 - 2020</div>
+                <div class="description">
+                  主修網頁開發與軟體工程。完成多個學術專案，獲得優異成績。
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <h3>全端開發碩士認證</h3>
+                <div class="period">線上課程平台 • 2020 - 2021</div>
+                <div class="description">
+                  完成 500+ 小時的全端開發課程，掌握最新的 Web 技術與最佳實踐。
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="section projects-section">
+          <div class="section-container">
+            <h2>認證與獎項</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--spacing-lg);">
+              <div style="background: var(--color-bg); padding: var(--spacing-lg); border-radius: var(--radius-lg); border: 1px solid var(--color-border); text-align: center;">
+                <div style="font-size: 2rem; margin-bottom: var(--spacing-sm);">🏆</div>
+                <h3 style="margin-top: 0;">Google 認證 - Web 開發者</h3>
+                <div style="color: var(--color-text-secondary);">2021</div>
+              </div>
+
+              <div style="background: var(--color-bg); padding: var(--spacing-lg); border-radius: var(--radius-lg); border: 1px solid var(--color-border); text-align: center;">
+                <div style="font-size: 2rem; margin-bottom: var(--spacing-sm);">☁️</div>
+                <h3 style="margin-top: 0;">AWS 認證 - 解決方案架構師</h3>
+                <div style="color: var(--color-text-secondary);">2022</div>
+              </div>
+
+              <div style="background: var(--color-bg); padding: var(--spacing-lg); border-radius: var(--radius-lg); border: 1px solid var(--color-border); text-align: center;">
+                <div style="font-size: 2rem; margin-bottom: var(--spacing-sm);">⚡</div>
+                <h3 style="margin-top: 0;">Scrum Master 認證</h3>
+                <div style="color: var(--color-text-secondary);">2020</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-container">
+          <p>&copy; 2025 李明的作品集。版權所有。</p>
+          <div class="footer-links">
+            <a href="../index.html">首頁</a>
+            <a href="about.html">關於我</a>
+            <a href="projects.html">作品集</a>
+            <a href="contact.html">聯絡我</a>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Back to Top Button -->
+      <button id="back-to-top" aria-label="返回頂部">↑</button>
+    </div>
+
+    <script src="../data.js"></script>
+    <script src="../script.js"></script>
+  </body>
+</html>
